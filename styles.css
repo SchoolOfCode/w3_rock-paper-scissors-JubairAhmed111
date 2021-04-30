@@ -1,0 +1,53 @@
+
+  /*This is the background of the game*/
+  section {
+    height: 100vh;
+    background-color:salmon;
+    font-family: sans-serif;
+  }
+  /*This is colour of the text that keeps track of the score*/
+  .score {
+    color: rgb(224, 224, 224);
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .score h2 {
+    font-size: 30px;
+  }
+  /*This makes player and computer to be centred*/
+  .score p {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+/*This allows the buttons to be edited*/
+  .match button {
+    width: 150px;
+    height: 50px;
+    color: rgb(224, 224, 224);
+    font-size: 20px;
+    background: lightslategray;
+    cursor: pointer;
+  }
+
+  .options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+ /*This edits the text of the results*/
+  .winner {
+    color: rgb(224, 224, 224);
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  
+  
+  
+  
+  
